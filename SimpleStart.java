@@ -8,6 +8,11 @@ import java.applet.Applet;
 
 public class SimpleStart extends Applet {
  
+   public static void main(String[] args){
+      SimpleStart st=new SimpleStart();
+   }
+
+   
  public void paint(Graphics g) {
  
   DrawTurtle t = new DrawTurtle(this);
